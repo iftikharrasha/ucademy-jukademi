@@ -1,0 +1,342 @@
+/*-------------This Site has been developed by-----------------
+|  Author: Iftikhar Rasha                                   
+|  Author URL: https://www.fiverr.com/iftikharrasha                  
+-------------------------------------------------------------*/
+
+/**google fonts**/
+@font-face {
+	font-family: "Nunito-light";
+	src: url(../font/Nunito-Light.ttf);
+}
+
+@font-face {
+	font-family: "Nunito-italic";
+	src: url(../font/Nunito-Italic.ttf);
+}
+
+@font-face {
+	font-family: "Nunito-semibold";
+	src: url(../font/Nunito-SemiBold.ttf);
+}
+
+@font-face {
+	font-family: "Nunito-bold";
+	src: url(../font/Nunito-Bold.ttf);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: "Nunito-light", sans-serif;
+	line-height: 1.5;
+	color: #212529;
+	background-color: #fff;
+}
+
+a {
+	-webkit-transition: .3s all ease;
+	-o-transition: .3s all ease;
+	transition: .3s all ease;
+}
+a:hover,
+.btn-link:hover,
+.btn-link:focus,
+.btn-link.focus {
+	text-decoration: none;
+}
+
+button:focus {
+	outline: none;
+}
+
+.btn:focus,
+.btn.focus {
+	box-shadow: none;
+}
+
+/**colors**/
+.c-tag-1 {
+	color: #000000 !important;
+}
+
+.c-tag-2 {
+	color: #f62b09 !important;
+}
+
+/**font-styles**/
+.italic-23 {
+	font-family: "Nunito-italic";
+	font-size: 21px;
+}
+.bold-23 {
+	font-family: "Nunito-bold";
+	font-size: 23px;
+}
+
+.semi-25 {
+	font-family: "Nunito-semibold";
+	font-size: 25px;
+}
+
+.semi-23 {
+	font-family: "Nunito-semibold";
+	font-size: 23px;
+}
+
+.semi-20 {
+	font-family: "Nunito-semibold";
+	font-size: 20px;
+}
+
+.light-60 {
+	font-size: 60px;
+}
+
+.light-50 {
+	font-size: 50px;
+}
+
+.light-40 {
+	font-size: 40px;
+}
+
+.light-35 {
+	font-size: 35px;
+}
+
+.light-33 {
+	font-size: 33px;
+}
+
+.light-30 {
+	font-size: 30px;
+}
+
+.light-23 {
+	font-size: 23px;
+}
+
+.light-21 {
+	font-size: 21px;
+}
+
+.light-12 {
+	font-size: 12px;
+}
+
+.light-20 {
+	font-size: 20px;
+}
+
+.light-18 {
+	font-size: 18px;
+}
+
+/* header starts */
+.header-sticky {
+	padding: 30px 0;
+	background-color: #fff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+	transition: all 0.5s ease 0s;
+	background-position: 50% 50%;
+	transform: translate(0px, 0px);
+	visibility: inherit;
+	opacity: 1;
+}
+
+.header-sticky.stick {
+	padding: 10px 0;
+	-webkit-box-shadow: 10px 10px 10px rgb(65 65 65 / 16%);
+	box-shadow: 10px 10px 10px rgb(65 65 65 / 16%);
+	position: fixed;
+	top: 0;
+}
+
+.menu ul li a:hover {
+	color: #f62b09 !important;
+}
+
+.navbar-light .navbar-toggler {
+	border-color: transparent;
+}
+
+.navbar-brand img {
+	max-width: 207px;
+}
+
+/* hero starts */
+.hero {
+	padding-top: 170px;
+}
+
+.shadow-box {
+	box-shadow: 0px 10px 10px rgb(0 0 0 / 20%);
+	height: calc(100vh - 2px);
+}
+
+/* products starts */
+.section-padding {
+	padding: 150px 0;
+}
+
+.content-margin-top {
+	margin-top: 50px;
+}
+
+.content-margin-bottom {
+	margin-bottom: 150px;
+}
+
+.review-margin {
+	margin: 100px 0;
+}
+
+.product-item {
+	width: 100%;
+}
+
+.product-item-details {
+	position: relative;
+	min-height: 530px;
+}
+
+.product-item-details:hover {
+	border-radius: 2rem;
+	box-shadow: 0.1rem 0.2rem 1rem rgb(0 0 0 / 28%);
+}
+
+.product-item-details img {
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: -20%;
+}
+
+.product-item-details p {
+	position: absolute;
+	left: 28%;
+	bottom: 5%;
+}
+
+/* location starts */
+.btn-tag-1 {
+	text-transform: uppercase;
+	border-radius: 1rem;
+	box-shadow: 0 0.1rem 0.5rem rgb(0 0 0 / 40%);
+	padding: 2rem 2.5rem !important;
+}
+
+.btn-tag-1:hover {
+	color: #f62b09;
+	/* box-shadow: 0 0rem 1rem rgb(0 0 0 / 25%); */
+	box-shadow: 0 0.1rem 0.5rem rgb(255 0 0 / 50%);
+}
+
+/* contact starts */
+.form-input input,
+.form-input textarea {
+	padding: 35px;
+	outline: 0;
+	border: solid 1px #aaaaaa;
+	margin: 0;
+	margin-bottom: 10px;
+	transition: all .4s;
+	border-radius: 10px;
+}
+
+.form-control:focus {
+	border-color: transparent;
+	box-shadow: 0 0 0 0.03rem #898787;
+}
+
+.form-control {
+	color: #aaaaaa;
+	font-size: 25px;
+}
+
+/* footer starts */
+.footer {
+	margin-top: 100px;
+	padding: 40px 0;
+	box-shadow: 0.1rem 0.2rem 3rem rgb(0 0 0 / 28%);
+}
+
+.footer-nav ul li {
+	float: left;
+	list-style: none;
+}
+
+.footer-nav ul li a:hover {
+	color: #f62b09 !important;
+}
+
+/* kontakt page */
+.breadcrumb {
+	background-color: white;
+	padding-left: 0;
+}
+
+/* notherfolker page */
+.cover-img {
+	position: relative;
+}
+
+.cover-btn {
+	background-color: white;
+	position: absolute;
+	right: 25%;
+	bottom: -15%;
+	transform: translate(5%, 5%);
+}
+
+.video .iframe-vdo {
+	width: 60%;
+	height: 500px;
+}
+
+.card {
+	border: 1px solid #3e3c3cab;
+}
+
+.card-header {
+	padding: 1.5rem 1.25rem;
+	border-bottom: 0;
+	background-color: rgb(255 255 255);
+}
+
+.tooltip-inner {
+	width: 100%;
+	max-width: 350px;
+}
+
+.table-width {
+	width: 100%;
+}
+
+.course-info tr:nth-child(even) {
+	background: #f4f4f4;
+}
+
+.course-info th {
+	width: 18%;
+}
+
+.offer th {
+	width: 33%;
+}
+
+.offer tr:nth-child(odd) {
+	background: #f4f4f4;
+}
